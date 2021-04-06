@@ -113,11 +113,6 @@ module.exports = {
         const play = async (song) => {
             const queue = message.client.queue.get(message.guild.id);
             if (!song) {
-                sendError(
-                    "Leaving the voice channel because I think there are no songs in the queue.\n\nThank you for using my BOT! [SERVER](https://discord.gg/v7KNdSv)",
-                    message.channel
-                );
-               
                 message.client.queue.delete(message.guild.id);
                 return;
             }
