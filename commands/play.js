@@ -117,7 +117,7 @@ module.exports = {
                     "Leaving the voice channel because I think there are no songs in the queue.\n\nThank you for using my BOT! [SERVER](https://discord.gg/v7KNdSv)",
                     message.channel
                 );
-                message.guild.me.voice.channel.leave(); //If you want your bot stay in vc 24/7 remove this line :D
+               
                 message.client.queue.delete(message.guild.id);
                 return;
             }
