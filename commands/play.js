@@ -58,7 +58,7 @@ module.exports = {
                     ago: songInfo.last_modified,
                     views: String(songInfo.playback_count).padStart(10, " "),
                     duration: Math.ceil(songInfo.duration / 1000),
-                    req: message.author,
+                   
                 };
             } catch (error) {
                 console.error(error);
