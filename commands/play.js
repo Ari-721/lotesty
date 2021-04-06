@@ -58,7 +58,6 @@ module.exports = {
                     ago: songInfo.last_modified,
                     views: String(songInfo.playback_count).padStart(10, " "),
                     duration: Math.ceil(songInfo.duration / 1000),
-                   
                 };
             } catch (error) {
                 console.error(error);
@@ -115,7 +114,7 @@ module.exports = {
             const queue = message.client.queue.get(message.guild.id);
             if (!song) {
                 sendError(
-                    "Leaving the voice channel because I think there are no songs in the queue. If you like the bot stay 24/7 in voice channel go to `commands/play.js` and remove the line number 61\n\nThank you for using my code! [SERVER](https://discord.gg/v7KNdSv)",
+                    "Leaving the voice channel because I think there are no songs in the queue.\n\nThank you for using my BOT! [SERVER](https://discord.gg/v7KNdSv)",
                     message.channel
                 );
                 message.guild.me.voice.channel.leave(); //If you want your bot stay in vc 24/7 remove this line :D
