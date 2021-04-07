@@ -14,7 +14,7 @@ module.exports = {
     var permissions = 37080128;
     
     let owner = new MessageEmbed()
-    .setTitle(`owner ${client.user.username}`)
+    .setTitle(`Support Server ${client.user.username}`)
     .setDescription(`BOT OWNER : <@363268408915132418> `)
     .setURL(`https://discord.gg/v7KNdSv `)
     .setColor("BLUE")
