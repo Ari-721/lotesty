@@ -15,8 +15,8 @@ module.exports = {
     
     let owner = new MessageEmbed()
     .setTitle(`owner ${client.user.username}`)
-    .setDescription(`Want me in your server? Invite me today! \n\n [Invite Link](https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=${permissions}&scope=bot)`)
-    .setURL(`https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=${permissions}&scope=bot`)
+    .setDescription(`BOT OWNER : <@363268408915132418> `)
+    .setURL(`https://discord.gg/v7KNdSv `)
     .setColor("BLUE")
     return message.channel.send(owner);
   },
