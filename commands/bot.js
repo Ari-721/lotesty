@@ -23,7 +23,7 @@ module.exports = {
     Channels : ${client.channels.cache.size}
     Prefix   : (?)
     Bot Owner : <@363268408915132418>
-    
+    Ping : ${client.ws.ping} MS
     `)
     .setURL(`https://discord.gg/v7KNdSv `)
     .setColor("BLUE")
