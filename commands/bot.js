@@ -17,14 +17,14 @@ module.exports = {
     .setTitle(`Support Server ${client.user.username}`)
     .setDescription(`
     
-    Name : Bolt Music
+   ** Name : ProBolt
     Servers  : ${client.guilds.cache.size}
     Users    : ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
     Channels : ${client.channels.cache.size}
     Prefix   : (?)
     Ping : ${client.ws.ping} MS
     Bot Owner : <@363268408915132418>
-   
+   **
     `)
     .setURL(`https://discord.gg/v7KNdSv `)
     .setColor("BLUE")
